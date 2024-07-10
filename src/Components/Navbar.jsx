@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0  bg-gray-800">
+      <nav className="fixed top-0 left-0 right-0  bg-gray-800 z-40">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
           <div className="relative flex h-16 items-center justify-between">
 
@@ -51,7 +51,7 @@ function Navbar() {
               </a>
             </div>
 
-            <div className="flex hidden sm:ml-6 sm:block justify-center">
+            <div className="hidden sm:ml-6 sm:block justify-center">
               <div className="flex space-x-4">
 
                 <a href='#' type='button' className="rounded-md  px-3 py-2  hover:bg-gray-700 text-sm font-medium text-white" aria-current="page" >Home</a>

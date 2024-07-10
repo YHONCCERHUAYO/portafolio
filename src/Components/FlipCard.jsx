@@ -18,7 +18,7 @@ import typescript from '../images/typescript.svg';
 const FlipCard = () => {
     
     return (
-        <div className="flex flex-col xl:flex-row mx-4 mt-8  items-center gap-7 relative -z-40">
+        <div className="flex flex-col xl:flex-row mx-4 mt-8  items-center gap-7 relative z-0">
 
             <div className="card h-64 w-96">
                 <div className="card-inner ">
