@@ -1,12 +1,12 @@
 import React from 'react';
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import Home from './Home.jsx';
-import NotFound from './NotFound.jsx';
+import Home from './pages/Home.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 function AppRoutes() {
   const routes = useRoutes([
     {
-      path: '/',
+      path: '/portafolio/',
       element: <Home />
     },
     {
